@@ -34,7 +34,7 @@ Each file is:
 
 ## 🌟 Connect with Me
 
-- 🔗 [LinkedIn – R Khushwith Kumar](https://www.linkedin.com/in/kushwithkumar)
+- 🔗 [LinkedIn – R Khushwith Kumar](https://www.linkedin.com/in/kushwith03)
 - 📧 kushwith03@gmail.com
 - 💻 [GitHub Profile](https://github.com/kushwith03)
 
