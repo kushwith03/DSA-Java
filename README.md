@@ -1,4 +1,3 @@
-
 Each file is:
 - ✅ Neatly named after the problem
 - ✅ Written in clean Java
@@ -17,7 +16,7 @@ Each file is:
 
 ## 🛠️ Tools & Environment
 
-- Language: **Java 21**
+- Language: **Java 23**
 - IDE: **IntelliJ IDEA**
 - OS: **Windows 11**
 - Version Control: **Git + GitHub**
@@ -26,15 +25,15 @@ Each file is:
 
 ## 📈 Current Progress
 
-- ✅ 150+ DSA problems solved  
-- 🧠 Focus: Arrays, Binary Search, Strings, Recursion  
+- ✅ 150+ DSA problems solved
+- 🧠 Focus: Arrays, Binary Search, Strings, Recursion
 - 📅 Updated regularly as I revise & solve more!
 
 ---
 
 ## 🌟 Connect with Me
 
-- 🔗 [LinkedIn – R Khushwith Kumar](https://www.linkedin.com/in/kushwith03)
+- 🔗 [LinkedIn – R Khushwith Kumar](https://www.linkedin.com/in/kushwithkumar)
 - 📧 kushwith03@gmail.com
 - 💻 [GitHub Profile](https://github.com/kushwith03)
 
