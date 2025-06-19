@@ -33,7 +33,5 @@ public class ArraysUtils {
         }
     }
 
-    public static void nothing() {
-
-    }
+    
 }
