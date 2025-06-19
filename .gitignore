@@ -1,4 +1,6 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -25,5 +27,27 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS / File System ###
 .DS_Store
+Thumbs.db
+desktop.ini
+
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+### Build Tools ###
+/target/
+/build/
+
+### Logs ###
+*.log
+
+### Misc ###
+*.swp
+*.swo
+*.tmp
+*.bak
