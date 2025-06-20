@@ -17,9 +17,9 @@ Each file is:
 
 ## 🛠️ Tools & Environment
 
-- Language: **Java 17**
+- Language: **Java 21**
 - IDE: **IntelliJ IDEA**
-- OS: **Windows 10**
+- OS: **Windows 11**
 - Version Control: **Git + GitHub**
 
 ---
