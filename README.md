@@ -1,3 +1,22 @@
+# 📚 DSA-Java
+
+Welcome to my **Java Data Structures & Algorithms (DSA)** repository!  
+This is a curated collection of DSA problems I’ve solved while preparing for **internship placements** and **coding interviews**.
+
+---
+
+## 📌 About Me
+
+I'm **R Khushwith Kumar**, a 3rd-year Computer Science student (Data Science specialization) based in Bangalore.  
+I’m passionate about solving real-world problems using Java and sharpening my coding skills through consistent practice.
+
+---
+
+## 💻 What's Inside?
+
+This repository includes Java implementations of common and important DSA problems.  
+All solutions are written in a clean, readable format and organized by topic like Arrays, Binary Search, Recursion, Bit Manipulation, and more.
+
 Each file is:
 - ✅ Neatly named after the problem
 - ✅ Written in clean Java
