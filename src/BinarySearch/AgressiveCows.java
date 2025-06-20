@@ -3,7 +3,7 @@ package BinarySearch;
 import java.util.Arrays;
 
 public class AgressiveCows {
-    public int maxDistance() {
+    public static void maxDistance() {
         int[] position = {1, 2, 3, 4, 7};
         int m = 3;
         Arrays.sort(position);
@@ -18,7 +18,7 @@ public class AgressiveCows {
                 high = mid - 1;
             }
         }
-        return high;
+        System.out.println("Max of minimum distance between cows is " + high);
 
     }
 
