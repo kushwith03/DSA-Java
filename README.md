@@ -17,6 +17,16 @@ I’m passionate about solving real-world problems using Java and sharpening my 
 This repository includes Java implementations of common and important DSA problems.  
 All solutions are written in a clean, readable format and organized by topic like Arrays, Binary Search, Recursion, Bit Manipulation, and more.
 
+📦 DSA-Java
+├── Arrays/
+├── BinarySearch/
+├── BitManipulation/
+├── Strings/
+├── Recursion/
+├── DivideAndConquer/
+├── LinkedList/   ← (coming soon)
+├── Draft/
+
 Each file is:
 - ✅ Neatly named after the problem
 - ✅ Written in clean Java
