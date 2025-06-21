@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.LinkedList;
+
 public class LinkedListUtils {
     public static class Node {
         int data;
@@ -125,6 +127,19 @@ public class LinkedListUtils {
         return val;
     }
 
+    public static int get(Node head, int i) {
+        if (i < size || i >= size) {
+            return Integer.MIN_VALUE;
+        }
+        Node temp = head;
+        int index = 0;
+        while (index < i) {
+            temp = temp.next;
+            index++;
+        }
+        return temp.data;
+    }
+
     public static void printLinkedList(Node head) {
         if (head == null) {
             System.out.println("Linked list is empty ");
@@ -197,9 +212,14 @@ public class LinkedListUtils {
         addLast(7);
         add(4, 4);
         removeFirst();
-        printLinkedList(head);
         System.out.println("Size of Linked List : " + size);
         remove(4);
         printLinkedList(head);
+        LinkedList<Integer> list = new LinkedList<>();
+        list.addFirst(0);
+        list.addLast(2);
+        list.addLast(3);
+        list.add(1, 1);
+        System.out.println(list);
     }
 }

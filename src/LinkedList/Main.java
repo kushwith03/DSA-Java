@@ -7,6 +7,5 @@ public class Main {
         LinkedListUtils.addLast(3);
         LinkedListUtils.addLast(1);
         LinkedListUtils.printLinkedList(LinkedListUtils.head);
-        CheckPalindrome.check(LinkedListUtils.head);
     }
 }
