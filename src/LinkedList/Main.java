@@ -7,8 +7,9 @@ public class Main {
         LinkedListUtils.addLast(3);
         LinkedListUtils.addLast(4);
         LinkedListUtils.addLast(5);
+        LinkedListUtils.printLinkedList(LinkedListUtils.head);
+        OddEven.oddEvenList(LinkedListUtils.head);
+        LinkedListUtils.printLinkedList(LinkedListUtils.head);
 
-//        LinkedListUtils.printLinkedList(LinkedListUtils.head);
-        ZigZag.ZigZagReorder(LinkedListUtils.head);
     }
 }
