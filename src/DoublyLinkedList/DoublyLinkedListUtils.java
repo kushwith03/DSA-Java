@@ -74,6 +74,54 @@ public class DoublyLinkedListUtils {
         return val;
     }
 
+    public static void add(int data, int n) {
+        if (n < 0 || n > size) {
+            return;
+        } else if (n == 0) {
+            addFirst(data);
+            return;
+        } else if (n == size) {
+            addLast(data);
+            return;
+        }
+        Node newNode = new Node(data);
+        size++;
+        int count = 0;
+        Node temp = head;
+        while (count < n - 1) {
+            temp = temp.next;
+            count++;
+        }
+        Node next = temp.next;
+        temp.next = newNode;
+        newNode.prev = temp;
+        newNode.next = next;
+        next.prev = newNode;
+    }
+
+    public static int remove(int n) {
+        if (head == null || n < 0 || n >= size) {
+            return Integer.MIN_VALUE;
+        } else if (n == 0) {
+            return removeFirst();
+        } else if (n == size - 1) {
+            return removeLast();
+        }
+        size--;
+        int count = 0;
+        Node temp = head;
+        while (count < n) {
+            count++;
+            temp = temp.next;
+        }
+        int val = temp.data;
+        Node back = temp.prev;
+        Node front = temp.next;
+        back.next = front;
+        front.prev = back;
+        return val;
+    }
+
     public static void printDoublyLinkedList(Node head) {
         Node temp = head;
         System.out.print("null ⇄ ");
@@ -82,7 +130,6 @@ public class DoublyLinkedListUtils {
             temp = temp.next;
         }
         System.out.println("null");
-
     }
 
     public static Node reverse(Node head) {
