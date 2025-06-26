@@ -24,12 +24,20 @@ public class Operations {
         }
     }
 
+    public static int toggle(int n, int i) {
+        return n ^ (1 << i);
+    }
+
+    public static int removeLastSetBit(int n) {
+        return n & (n - 1);
+    }
+
     public static int clearLastIBits(int n, int i) {
         return n & (~0 << i);
     }
 
     public static int clearRange(int n, int i, int j) {
-        int a = (~0) << j + 1;
+        int a = (~0) << (j + 1);
         int b = (1 << i) - 1;
         return n & (a | b);
     }
