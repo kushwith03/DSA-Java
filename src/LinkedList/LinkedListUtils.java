@@ -176,7 +176,7 @@ public class LinkedListUtils {
         return recursiveSearch(head.next, key, i + 1);
     }
 
-    public static void reverse() {
+    public static Node reverse(Node head) {
         if (head == null || head.next == null) {
             return;
         }
@@ -190,6 +190,7 @@ public class LinkedListUtils {
             cur = next;
         }
         head = prev;
+        return head;
     }
 
     public static Node findMiddle(Node head) {
