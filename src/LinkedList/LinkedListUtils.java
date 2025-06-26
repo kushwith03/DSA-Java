@@ -178,7 +178,7 @@ public class LinkedListUtils {
 
     public static Node reverse(Node head) {
         if (head == null || head.next == null) {
-            return;
+            return head;
         }
         Node prev = null;
         Node cur = tail = head;
