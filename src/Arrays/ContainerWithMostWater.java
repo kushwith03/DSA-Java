@@ -17,7 +17,7 @@ public class ContainerWithMostWater {
                 }
             }
         }
-        System.out.println("Maximum water that can be contained: " + maxWater);
+        System.out.println("Maximum water that can be contained : " + maxWater);
     }
 
     public static void optimal() {
@@ -41,7 +41,7 @@ public class ContainerWithMostWater {
                 right--;
             }
         }
-        System.out.println("Maximum water that can be contained: " + maxWater);
+        System.out.println("Maximum water that can be contained : " + maxWater);
 
     }
 }
