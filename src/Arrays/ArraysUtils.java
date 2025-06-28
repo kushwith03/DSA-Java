@@ -30,8 +30,9 @@ public class ArraysUtils {
             array[end] = temp;
             start++;
             end--;
+
         }
     }
 
-    
+
 }
