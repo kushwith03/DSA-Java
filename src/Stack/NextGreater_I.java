@@ -5,8 +5,8 @@ import Arrays.ArraysUtils;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class NextGreater {
-    public static void find(String[] args) {
+public class NextGreater_I {
+    public static void find() {
         int[] array = {4, 12, 5, 3, 1, 2, 5, 3, 1, 2, 4, 6};
         ArraysUtils.printArray(array);
         System.out.println();
