@@ -37,4 +37,29 @@ public class TrappedRainWater {
         }
         System.out.println("Total trapped water : " + trappedWater);
     }
+
+    public static void optimal() {
+        int[] height = {4, 2, 0, 6, 3, 2, 5};
+        int leftMax = 0, rightMax = 0, trappedWater = 0;
+        int left = 0;
+        int right = height.length - 1;
+        while (left <= right) {
+            if (leftMax <= rightMax) {
+                if (leftMax > height[left]) {
+                    trappedWater += leftMax - height[left];
+                } else {
+                    leftMax = height[left];
+                }
+                left++;
+            } else {
+                if (rightMax > height[right]) {
+                    trappedWater += rightMax - height[right];
+                } else {
+                    rightMax = height[right];
+                }
+                right--;
+            }
+        }
+        System.out.println("Total trapped water : " + trappedWater);
+    }
 }
