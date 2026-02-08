@@ -7,7 +7,7 @@ This is a curated collection of DSA problems I’ve solved while preparing for *
 
 ## 📌 About Me
 
-I'm **R Khushwith Kumar**, a 3rd-year Computer Science student (Data Science specialization) based in Bangalore.  
+I'm **R Khushwith Kumar**, a 4th-year Computer Science student (Data Science specialization) based in Bangalore.  
 I’m passionate about solving real-world problems using Java and sharpening my coding skills through consistent practice.
 
 ---
@@ -22,18 +22,32 @@ All solutions are written in a clean, readable format and organized by topic lik
 The repo is structured cleanly into topic-wise folders:
 
 - 📁 `Arrays/`
+- 📁 `Backtracking/`
 - 📁 `BinarySearch/`
 - 📁 `BitManipulation/`
-- 📁 `Strings/`
-- 📁 `Recursion/`
 - 📁 `DivideAndConquer/`
+- 📁 `DoublyLinkedList/`
 - 📁 `LinkedList/`
+- 📁 `Queue/`
+- 📁 `Recursion/`
+- 📁 `Stack/`
+- 📁 `Strings/`
+- 📁 `Trees/`
 
 Each file is:
 - ✅ Neatly named after the problem
 - ✅ Written in clean Java
 - ✅ Solved using efficient logic
 - ✅ Regularly committed with clear Git history
+
+---
+
+## 🎯 Goal
+
+- Build strong fundamentals in Data Structures & Algorithms
+- Practice interview-relevant problems using Java
+- Maintain a clean, reusable, and well-organized DSA codebase
+- Track long-term progress consistently
 
 ---
 
@@ -56,8 +70,8 @@ Each file is:
 
 ## 📈 Current Progress
 
-- ✅ 150+ DSA problems solved
-- 🧠 Focus: Arrays, Binary Search, Strings, Recursion
+- ✅ 200+ DSA problems solved
+- 🧠 Focus: Arrays, Binary Search, Strings, Recursion, Linked List
 - 📅 Updated regularly as I revise & solve more!
 
 ---

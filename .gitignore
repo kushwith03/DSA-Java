@@ -2,52 +2,24 @@
 .idea/
 *.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+### Java bytecode ###
+*.class
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### Logs ###
+*.log
 
-### VS Code ###
-.vscode/
+### Build tools ###
+/target/
+/build/
 
 ### OS / File System ###
 .DS_Store
 Thumbs.db
 desktop.ini
 
-### Java ###
-*.class
-*.log
-*.jar
-*.war
-*.ear
+### VS Code ###
+.vscode/
 
-### Build Tools ###
-/target/
-/build/
-
-### Logs ###
-*.log
-
-### Misc ###
-*.swp
-*.swo
-*.tmp
-*.bak
+### Draft folder ###
+src/Draft.java
