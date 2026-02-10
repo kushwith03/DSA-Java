@@ -24,6 +24,7 @@ The repo is structured cleanly into topic-wise folders:
 - 📁 `Arrays/`
 - 📁 `Backtracking/`
 - 📁 `BinarySearch/`
+- 📁 `BinaryTrees/`
 - 📁 `BitManipulation/`
 - 📁 `DivideAndConquer/`
 - 📁 `DoublyLinkedList/`
@@ -32,7 +33,6 @@ The repo is structured cleanly into topic-wise folders:
 - 📁 `Recursion/`
 - 📁 `Stack/`
 - 📁 `Strings/`
-- 📁 `Trees/`
 
 Each file is:
 - ✅ Neatly named after the problem
