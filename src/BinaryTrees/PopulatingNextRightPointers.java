@@ -6,6 +6,25 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class PopulatingNextRightPointers {
+    public static void optimal(Node root) {
+        if (root == null) {
+            return;
+        }
+        Node leftMost = root;
+        while (leftMost.left != null) {
+            Node curr = leftMost;
+            while (curr != null) {
+                curr.left.next = curr.right;
+                if (curr.next != null) {
+                    curr.right.next = curr.next.left;
+                }
+                curr = curr.next;
+            }
+            leftMost = leftMost.left;
+        }
+
+    }
+
     public static void implement(Node root) {
         if (root == null) return;
 
