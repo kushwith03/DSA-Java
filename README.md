@@ -28,6 +28,8 @@ The repo is structured cleanly into topic-wise folders:
 - 📁 `BitManipulation/`
 - 📁 `DivideAndConquer/`
 - 📁 `DoublyLinkedList/`
+- 📁 `DynamicProgramming/`
+- 📁 `Graphs/`
 - 📁 `LinkedList/`
 - 📁 `Queue/`
 - 📁 `Recursion/`
@@ -71,7 +73,7 @@ Each file is:
 ## 📈 Current Progress
 
 - ✅ 200+ DSA problems solved
-- 🧠 Focus: Arrays, Binary Search, Strings, Recursion, Linked List
+- 🧠 Focus: Arrays, Binary Search, Strings, Recursion, Linked List, Dynamic Programming, Graphs
 - 📅 Updated regularly as I revise & solve more!
 
 ---
