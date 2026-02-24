@@ -28,6 +28,7 @@ The repo is structured cleanly into topic-wise folders:
 - 📁 `BitManipulation/`
 - 📁 `DivideAndConquer/`
 - 📁 `DoublyLinkedList/`
+- 📁 `Heaps/`
 - 📁 `LinkedList/`
 - 📁 `Queue/`
 - 📁 `Recursion/`
