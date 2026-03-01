@@ -1,7 +1,7 @@
 package Arrays;
 
-public class RerrangeArray {
-    public static void rearrnge() {
+public class RearrangeArray {
+    public static void rearrange() {
         int[] nums = {3, 1, -2, -5, 2, -4};
         int pindex = 0;
         int nindex = 1;
