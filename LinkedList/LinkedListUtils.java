@@ -128,7 +128,7 @@ public class LinkedListUtils {
     }
 
     public static int get(Node head, int i) {
-        if (i < size || i >= size) {
+        if (i < 0 || i >= size) {
             return Integer.MIN_VALUE;
         }
         Node temp = head;
