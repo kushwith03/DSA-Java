@@ -19,4 +19,26 @@ public class Compression {
         }
         System.out.println("Compressed String : " + ans);
     }
+
+    public static int compress(char[] chars) {
+        if (chars.length == 0) {
+            return 0;
+        }
+        int left = 0;
+        int right = 0;
+        while (right < chars.length) {
+            int start = right;
+            while (right < chars.length && chars[right] == chars[start]) {
+                right++;
+            }
+            chars[left++] = chars[start];
+            if (right - start > 1) {
+                String num = Integer.toString(right - start);
+                for (char c : num.toCharArray()) {
+                    chars[left++] = c;
+                }
+            }
+        }
+        return left;
+    }
 }

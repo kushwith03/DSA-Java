@@ -1,6 +1,6 @@
 package Strings;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class LongestUniqueSubstring {
     public static int lengthOfLongestSubstring(String s) {
         if (s.length() == 0) {
             return 0;
