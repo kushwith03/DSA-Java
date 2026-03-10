@@ -8,20 +8,29 @@ public class Fibonacci {
         return find(n - 1) + find(n - 2);
     }
 
-    public static int optimised(int[] dp, int n) {
+    public static int dp(int[] dp, int n) {
         if (n < 2) {
             return n;
         }
         if (dp[n] != 0) {
             return dp[n];
         }
-        dp[n] = optimised(dp, n - 1) + optimised(dp, n - 2);
+        dp[n] = dp(dp, n - 1) + dp(dp, n - 2);
         return dp[n];
     }
 
-    public static void main(String[] args) {
-        int n = 5;
-        int[] dp = new int[n + 1];
-        System.out.println(optimised(dp, n));
+    public static int optimised(int n) {
+        if (n < 2) {
+            return n;
+        }
+        int last = 0;
+        int secondLast = 1;
+        int curr = 0;
+        for (int i = 2; i <= n; i++) {
+            curr = last + secondLast;
+            last = secondLast;
+            secondLast = curr;
+        }
+        return curr;
     }
 }
