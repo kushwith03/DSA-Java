@@ -3,7 +3,7 @@ package BitManipulation;
 import java.util.ArrayList;
 
 public class Subsets {
-    public static void subjets() {
+    public static void subSets() {
         int[] nums = {1, 2, 3};
         int total = 1 << nums.length;
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
